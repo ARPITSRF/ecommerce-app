@@ -1,8 +1,12 @@
 import React from "react";
+import Announcement from "./components/Announcement";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 export default () => (
   <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
+    {/* <Home /> */}
+    <Announcement />
+    <Navbar />
   </>
 );
