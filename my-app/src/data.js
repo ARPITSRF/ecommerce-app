@@ -35,3 +35,21 @@ export const sliderItems = [
     bg: "f5f5f5",
   },
 ];
+
+export const categories = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1629202467552-58e7f250c21a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZSUyMGxvdyUyMGR1bmtzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    title: "Low",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1607792246336-75ae29a5bf60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmlrZSUyMG1pZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    title: "Mid",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZSUyMGhpZ2h8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+    title: "High",
+  },
+];
