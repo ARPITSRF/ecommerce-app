@@ -6,6 +6,7 @@ import Slider from "./components/Slider";
 import Products from "./components/Products";
 import Home from "./pages/Home";
 import Newletter from "./components/Newletter";
+import Footer from "./components/Footer";
 
 export default () => (
   <>
@@ -16,5 +17,6 @@ export default () => (
     <Categories />
     <Products />
     <Newletter />
+    <Footer />
   </>
 );
