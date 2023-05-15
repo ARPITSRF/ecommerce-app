@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { Description, } from "@mui/icons-material";
 
 const Container = styled.div`
   display: flex;
@@ -20,7 +21,6 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo></Logo>
         <Description>
           Sneaker websites are online platforms that specialize in selling
           athletic shoes, particularly sneakers, from popular brands like Nike,

@@ -1,7 +1,14 @@
 import React from "react";
+import Slider from "../components/Slider";
+import Productlist from "./Productlist";
+import Announcement from "../components/Announcement";
 
 const Home = () => {
-  return <div>Home</div>;
+  return <>
+    <Announcement />
+    <Slider />
+    <Productlist />
+  </>
 };
 
 export default Home;

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Badge from "@mui/material/Badge";
 
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 60px;
@@ -80,8 +81,8 @@ const Navbar = () => {
           <Logo>Path ...</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <Link to='/register'><MenuItem>REGISTER</MenuItem></Link>
+          <Link to='/login'><MenuItem>SIGN IN</MenuItem></Link>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlinedIcon color="action" />

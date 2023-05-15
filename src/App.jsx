@@ -1,20 +1,19 @@
 import React from "react";
-import Announcement from "./components/Announcement";
-import Categories from "./components/Categories";
-import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
-import Products from "./components/Products";
 import Home from "./pages/Home";
-import Newletter from "./components/Newletter";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import Navbar from "./components/Navbar";
 
 export default () => (
   <>
-    {/* <Home /> */}
-    <Announcement />
+    <BrowserRouter>
     <Navbar />
-    <Slider />
-    <Categories />
-    <Products />
-    <Newletter />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/register" element={<Register/>} />
+        <Route path="/login" element={<Login/>} />
+      </Routes>
+    </BrowserRouter>
   </>
 );
